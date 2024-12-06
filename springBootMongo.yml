@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: gnaswa/spring-boot-mongo:1
+        image: gnaswa/spring-boot-mongo:latest
         ports:
         - containerPort: 8080
         env:
